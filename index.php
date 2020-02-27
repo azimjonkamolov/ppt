@@ -72,7 +72,7 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/1.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/11.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>Welcome to UzVeiw</h2>
@@ -85,7 +85,7 @@
 
           <div class="carousel-item">
               <div class="carousel-background">
-                <img src="img/2.jpg" alt="">
+                <img src="img/22.jpg" alt="">
               </div>
               <div class="carousel-container">
               </div>
@@ -93,7 +93,7 @@
 
           <div class="carousel-item">
               <div class="carousel-background">
-                <img src="img/3.jpg" alt="">
+                <img src="img/33.jpg" alt="">
               </div>
               <div class="carousel-container">
               </div>
