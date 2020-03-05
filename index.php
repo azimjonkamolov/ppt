@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="img/Phoenix.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -72,7 +72,7 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/11.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/22.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>Welcome to UzVeiw</h2>
@@ -85,7 +85,7 @@
 
           <div class="carousel-item">
               <div class="carousel-background">
-                <img src="img/22.jpg" alt="">
+                <img src="img/11.jpg" alt="">
               </div>
               <div class="carousel-container">
               </div>
