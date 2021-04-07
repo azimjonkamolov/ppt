@@ -3793,3 +3793,16 @@ Slides Index
 .image_size{
 	max-width: 400px;
 }
+.mot_video{
+	width: 600px;
+	height: 400px;
+}
+@media only screen and (max-width: 600px) {
+	.p_bottom {
+	  	padding-bottom: 100px;
+	}
+	.mot_video{
+		width: 100%;
+		height: 400px;
+	}
+}
