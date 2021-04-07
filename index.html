@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WebSlides Keynote: Make a Keynote presentation using HTML</title>
+    <title> Intro </title>
     <meta name="description" content="WebSlides is the easiest way to make HTML presentations. Just essential features, clean code, and lovely CSS.">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" type='text/css' media='all' href="../static/css/webslides.css">
@@ -36,21 +36,42 @@
 <body>
     <main role="main">
 		<article id="webslides">
-			<!-- Quick Guide
-			- Each parent <section> in the <article id="webslides"> element is an individual slide.
-			- Vertical sliding = <article id="webslides" class="vertical">
-			- <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
-			-->
 			<section class="bg-apple aligncenter">
 				<div class="wrap">
-					<h1><img src="../static/images/logos/phoenix.png" alt="My Logo"></h1>
+					<h1><img class="image_size" src="static/images/main.png" alt="My Logo"></h1>
 				</div>
 			</section>
 			<section class="bg-apple">
+				<div class="wrap">
+					<div class="card-50">
+						<figure><img class="aligncenter" src="https://ccinfo.unc.edu/wp-content/uploads/sites/219/2018/01/classroom.png" alt="image"></figure>
+						<div class="flex-content">
+							<h2>Azimjon Kamolov</h2>
+							<p class="text-intro"> Computer Science, Sejong University</p>
+							<p>
+								Quyida uzimni maslahatlarim va web dasturlash haqida fikir bildirib o'tmoqchi man, bu o'z fikirlarim va xulosamga asoslangan holda olib boriladi, o'z maslaxatlarimni qo'ldan kelgancha yetkazishga harakat qilib o'taman 
+							</p>
+						</div>
+						<!-- end .flex-content-->
+					</div>
+					<!-- end .card-50-->
+				</div>
+				<!-- .end .wrap -->
+			</section>
+			<section class="bg-apple aligncenter">
+				<h2 class="text-emoji zoomIn">🤔</h2>
+				<h3><strong>Web Nima?</strong></h2>
+				<!-- <p><a href="https://twitter.com/webslides" title="@WebSlides on Twitter">@WebSlides</a></p> -->
+			</section>
+			<!-- <section class="bg-apple aligncenter">
+				<div class="wrap">
+					<h1> Web nima? </h1>
+				</div>
+			</section> -->
+			<section class="bg-apple">
 				<div class="wrap size-50">
-					<h1>Ta'lim markazimiz haqida qisqacha</h1>
-					<p class="text-intro">Ta'lim markazi haqida ma'lumotlar berib o'tiladi. Ta'lim markazi haqida ma'lumotlar berib o'tiladi. Ta'lim markazi haqida ma'lumotlar berib o'tiladi.</p>
-					<!-- <p><code>.bg-apple</code></p> -->
+					<h1>Website </h1>
+					<p class="text-intro">deb komputer tarmogʻidagi bir elektron manzilda joylashgan elektron hujjatlar majmuiga aytiladi.</p>
 				</div>
 			</section>
 			<section class="bg-apple aligncenter">
@@ -116,49 +137,58 @@
 			<section class="bg-apple">
 				<div class="wrap">
 					<div class="grid vertical-align">
-					<div class="column">
-						<h2>Web dasturlash haqida faktlar</h2>
-						<!-- <p class="text-intro">We worked closely with the very talented people at Acme and created a new website. Content demo. </p> -->
-						<ul class="description">
-						<li>
-							<span class="text-label">
-							O'sish:
-							</span>
-							<a href="https://www.thebalancecareers.com/web-developer-salaries-overview-and-outlook-2071278#:~:text=Job%20prospects%20for%20web%20developers,the%20Bureau%20of%20Labor%20Statistics.&text=This%20figure%20should%20grow%20by,occupations%2C%20which%20is%2012%25.">2024chi yilgacha 27% o'sish</a>
-						</li>
-						<li>
-							<span class="text-label">
-							Soni:
-							</span>
-							<a href="https://websitesetup.org/news/how-many-websites-are-there/#:~:text=It's%20estimated%20that%20over%201.7,world%20contribute%20with%20online%20interactions.">1.7 milliardga yaqin website mavjud</a>
-						</li>
-						<li>
-							<span class="text-label">
-							Daromad:
-							</span>
-							<a href="https://www.indeed.com/career/web-developer/salaries">Urtacha yillik daromad $75,000 attrofida [AQSH]</a>
-						</li>
-						</ul>
+						<div class="column">
+							<h2>Web dasturlash haqida faktlar</h2>
+							<ul class="description">
+								<li>
+									<span class="text-label">
+									O'sish:
+									</span>
+									<a href="https://www.thebalancecareers.com/web-developer-salaries-overview-and-outlook-2071278#:~:text=Job%20prospects%20for%20web%20developers,the%20Bureau%20of%20Labor%20Statistics.&text=This%20figure%20should%20grow%20by,occupations%2C%20which%20is%2012%25.">2024chi yilgacha 27% o'sish</a>
+								</li>
+								<li>
+									<span class="text-label">
+									Soni:
+									</span>
+									<a href="https://websitesetup.org/news/how-many-websites-are-there/#:~:text=It's%20estimated%20that%20over%201.7,world%20contribute%20with%20online%20interactions.">1.7 milliardga yaqin website mavjud</a>
+								</li>
+								<li>
+									<span class="text-label">
+									Daromad:
+									</span>
+									<a href="https://www.indeed.com/career/web-developer/salaries">Urtacha yillik daromad $75,000 attrofida [AQSH]</a>
+								</li>
+							</ul>
+						</div>
+						<div class="column">
+							<figure>
+								<img src="static/images/web.png" alt="Web">
+							</figure>
+						</div>
 					</div>
-					<!-- end .column-->
-					<div class="column">
-						<figure>
-						<img src="../static/images/web.png" alt="Web">
-						</figure>
-					</div>
-					<!-- end figure-->
-					</div>
-					<!-- end .grid-->
 				</div>
-				<!-- end .wrap-->
+			</section>
+			<section class="bg-apple">
+				<div class="wrap">
+					<div class="card-50">
+						<figure><video width="600" height="400" controls>
+							<source src="static/images/data.mp4" type="video/mp4">
+							Your browser does not support HTML video.
+						  </video></figure>
+						<div class="flex-content">
+							<h2>Haqiqiy kasb</h2>
+							<p class="text-intro"> Faqat o'z bilimingiz yordamida </p>
+							<p>Dasturlash kasbida haqiqiy bilim va ko'nikma talab etadi bu kasbga, o'z kuchingiz bilangina erisha olasiz, va bu kasb hozirda juda tezlik bilan o'sib kelmoqda, raqamlashtirish kompaniya va davlat rivojini belgilaydiq</p>
+						</div>
+					</div>
+				</div>
 			</section>
 			<section class="bg-apple aligncenter">
-			<span class="background dark" style="background-image:url('https://source.unsplash.com/pb_lF8VWaPU/')"></span>
-			<div class="wrap">
-				<h2 class="text-data">1.7 milliard</h2>
-				<h3>Hammasi 1991 yilda bitta website bilan boshlangan va bugungi kunda bu son 1 millioardan oshgan holda</h3>
-			</div>
-			<!-- .end .wrap -->
+				<span class="background dark" style="background-image:url('/static/images/hand.jpeg')"></span>
+				<div class="wrap">
+					<h2 class="text-data">1.7 milliard</h2>
+					<h3>Hammasi 1991 yilda bitta website bilan boshlangan va bugungi kunda bu son 1 millioardan oshgan holda</h3>
+				</div>
 			</section>
 			<section class="bg-apple aligncenter">
 				<div class="wrap zoomIn">
@@ -171,23 +201,10 @@
 				</div>
 			</section>
 			<section class="bg-apple">
-				<!-- <header> -->
-					<!--.wrap o <nav> = container 1200px -->
-					<!-- <div class="wrap">
-						<p>Header</p>
-					</div>
-				</header> -->
 				<div class="aligncenter fadeInUp">
 					<h2>Quyida o'zimizning maslaxatlarimiz va yo'limizni tushuntirib o'tamiz</h2>
 					<p>Har bir ma'lumot boyitib boriladi</p>
 				</div>
-				<!-- <footer class="bg-trans-dark">
-					<div class="wrap">
-						<p>
-							<span class="alignleft">Footer</span>
-						</p>
-					</div>
-				</footer> -->
 			</section>
 			<!-- <section class="bg-apple slide-bottom">
 				<span class="background" style="background-image:url('https://getwallpapers.com/wallpaper/full/f/f/9/490193.jpg')"></span>
@@ -204,24 +221,24 @@
 				</div>
 			</section> -->
 			<section class="bg-apple">
-			<div class="wrap">
-				<div class="card-50">
-					<figure><img class="aligncenter" src="http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png" alt="iPhone"></figure>
-					<div class="flex-content">
-						<h2>HTML</h2>
-						<p class="text-intro"> Hypertext Markup Language </p>
-						<p>Har bir website HTML strukturasi asosida quriladi, hoh u yuqori vazifalarni bajaruvchi online magazin website bo'lin yo oddiy shaxshiy web sahifa bo'lsin</p>
+				<div class="wrap">
+					<div class="card-50">
+						<figure><img class="aligncenter" src="static/images/html.png" alt="image"></figure>
+						<div class="flex-content">
+							<h2>HTML</h2>
+							<p class="text-intro"> Hypertext Markup Language </p>
+							<p>Har bir website HTML strukturasi asosida quriladi, hoh u yuqori vazifalarni bajaruvchi online magazin website bo'lin yo oddiy shaxshiy web sahifa bo'lsin</p>
+						</div>
+						<!-- end .flex-content-->
 					</div>
-					<!-- end .flex-content-->
+					<!-- end .card-50-->
 				</div>
-				<!-- end .card-50-->
-			</div>
-			<!-- .end .wrap -->
+				<!-- .end .wrap -->
 			</section>
 			<section class="bg-apple">
 				<div class="wrap">
 					<div class="card-50">
-						<figure><img class="aligncenter" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" style="max-width: 250px;" alt="iPhone"></figure>
+						<figure><img class="aligncenter" src="static/images/css.png" style="max-width: 250px;" alt="image"></figure>
 						<div class="flex-content">
 							<h2>CSS</h2>
 							<p class="text-intro"> Cascading Style Sheets </p>
@@ -235,7 +252,7 @@
 			<section class="bg-apple">
 				<div class="wrap">
 					<div class="card-50">
-						<figure><img class="aligncenter" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/1200px-Javascript_badge.svg.png" style="max-width: 300px;" alt="iPhone"></figure>
+						<figure><img class="aligncenter" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/1200px-Javascript_badge.svg.png" style="max-width: 300px;" alt="image"></figure>
 						<div class="flex-content">
 							<h2>JS</h2>
 							<p class="text-intro"> JavaScript </p>
@@ -245,6 +262,33 @@
 					</div>
 				</div>
 			<!-- .end .wrap -->
+			</section>
+			<section class="bg-apple">
+				<div class="wrap">
+					<div class="content-left">
+						<figure><img class="aligncenter" src="static/images/amazon.png" alt="image"></figure>
+					</div>
+					<div class="content-left">
+						<figure><img class="aligncenter" src="static/images/facebook.png"  alt="image"></figure>
+					</div>
+				</div>
+			</section>
+			<section class="bg-apple">
+				<div class="wrap">
+					<div class="content-left">
+						<h3>
+							<a href="https://webslides.tv/demos/media#slide=2">Qisqacha Video</a>
+						</h3>
+						<p>
+							Bu video faqatgina dasturchilar uchun emas o'ylaymanki bu video har qanday kasb egalariga hoh quruvchi bo'lsin hoh yozuvchi o'z nafini bera oldadi. Quyida Facebook hammualliflari Mark Zuckerbergning juda ajoyib nutqi havola etiladi: 
+						</p>
+					</div>
+					<div class="content-left">
+						<div class="embed">
+							<div data-youtube data-youtube-id="X8aRr-g8CJA" data-autoplay data-no-controls><div>
+						</div>
+					</div>
+				</div>
 			</section>
 			<section class="bg-apple">
 				<span class="background-left-bottom" style="background-image:url('../static/images/iphone-hand.png')"></span>
@@ -277,7 +321,7 @@
 						</div>
 					</div>
 					<div class="content-right">
-						<figure><img class="aligncenter" src="https://img.pngio.com/creativity-png-96-images-in-collection-page-1-creativity-png-1200_1200.png" style="max-width: 300px;" alt="iPhone"></figure>
+						<figure><img class="aligncenter" src="https://img.pngio.com/creativity-png-96-images-in-collection-page-1-creativity-png-1200_1200.png" style="max-width: 300px;" alt="image"></figure>
 					</div>
 				</div>
 			</section>
@@ -459,7 +503,7 @@
 				<h2>Embedding Media</h2>
 			</div>
 			</section> -->
-			<section class="bg-apple">
+			<!-- <section class="bg-apple">
 				<div class="wrap">
 					<div class="content-left">
 						<h3><a href="https://webslides.tv/demos/media#slide=2">Qisqacha video</a></h3>
@@ -467,14 +511,9 @@
 					</div>
 					<div class="content-left">
 						<div class="embed">
-							<div data-youtube data-youtube-id="oyk0WPTQlhg" data-autoplay data-no-controls><div>
+							<div data-youtube data-youtube-id="X8aRr-g8CJA" data-autoplay data-no-controls><div>
 						</div>
 					</div>
-				</div>
-			</section>
-			<!-- <section class="bg-apple fullscreen">
-				<div class="embed">
-					<div data-youtube data-youtube-id="oyk0WPTQlhg" data-autoplay></div>
 				</div>
 			</section> -->
 			<section class="fullscreen bg-apple aligncenter">
@@ -482,65 +521,10 @@
 					<h2><strong>Q & A</strong></h2>
 				</div>
 			</section>
-			<!-- <section class="fullscreen bg-black aligncenter">
-				<div class="embed dark">
-					<video autoplay loop muted poster="https://webslides.tv/static/images/peggy.jpg">
-					<source src="https://webslides.tv/static/videos/peggy.mp4" type="video/mp4">
-					</video>
-				</div>
-				<div class="wrap size-50">
-					<h2><strong>Think Different</strong></h2>
-					<p>Overlay: <code>fullscreen.bg-black > .embed.dark</code> or .light</p>
-				</div>
-			</section> -->
-			<!-- <section class="bg-apple aligncenter">
-			<span class="background-right-bottom" style="background-image:url('https://webslides.tv/static/images/tim-cook.png')"></span>
-			<div class="wrap">
-				<h1>One more thing...</h1>
-			</div>
-			</section>
 			<section class="bg-apple aligncenter">
-			<div class="wrap">
-				<div class="cta">
-				<div class="number">
-					<p><span>Ag</span></p>
-				</div>
-				<div class="benefit">
-					<p class="text-subtitle">San Francisco</p>
-					<h3><strong>The quick brown fox jumps over the lazy dog</strong>.</h3>
-					<p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-					<p>abcdefghijklmnopqrstuvwxyz</p>
-					<p>1234567890(,.;:?!$&*)</p>
-				</div>
-				</div>
-			</div>
-			</section>
-			<section class="bg-apple aligncenter">
-			<div class="wrap">
-				<h2><strong>Start in seconds</strong></h2>
-				<p class="text-intro">120+ prebuilt slides ready to use.</p>
-				<p>
-				<a href="https://webslides.tv/webslides-latest.zip" class="button" title="Download WebSlides">
-					<svg class="fa-cloud-download">
-					<use xlink:href="#fa-cloud-download"></use>
-					</svg>
-					Free Download
-				</a>
-				<span class="try">
-					<a href="https://www.paypal.me/jlantunez/8" title="Good karma :)">
-					<svg class="fa-paypal">
-						<use xlink:href="#fa-paypal"></use>
-					</svg>
-					Pay what you want.
-					</a>
-				</span>
-				</p>
-			</div>
-			</section> -->
-			<section class="bg-apple aligncenter">
-			<h2 class="text-emoji zoomIn">😎</h2>
-			<h3><strong>Thank you!</strong></h2>
-			<p><a href="https://twitter.com/webslides" title="@WebSlides on Twitter">@WebSlides</a></p>
+				<h2 class="text-emoji zoomIn">😎</h2>
+				<h3><strong>Thank you!</strong></h2>
+				<!-- <p><a href="https://twitter.com/webslides" title="@WebSlides on Twitter">@WebSlides</a></p> -->
 			</section>
 		</article>
     </main>
